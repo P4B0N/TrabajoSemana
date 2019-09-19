@@ -1,7 +1,7 @@
 <?php
 $miobjeto=new stdClass();
-$miobjeto->Usuario=$_GET['Usuario'];
-$miobjeto->Contraseña=$_GET['Contraseña'];
+$miobjeto->Patente=$_GET['Patente'];
+$miobjeto->Horario=$_GET['Horario'];
 
 $archivo=fopen('usuarios.txt','a');
 fwrite($archivo,json_encode($miobjeto)."\n");

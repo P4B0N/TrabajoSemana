@@ -50,7 +50,7 @@
       
       <h1>Registro<h1>
 
-              <form action="action_page.php">
+              <form action="HacerRegistro.php">
                 Nombre:<br>
                 <input type="text" name="Nombre" value="">
                 <br>

@@ -50,12 +50,12 @@
 
       <h1>Login<h1>
         
-        <form action="action_page.php">
-                Nombre:<br>
-                <input type="text" name="Nombre" value="">
+        <form action="HacerLogin.php">
+                Usuario:<br>
+                <input type="text" name="Usuario" value="">
                 <br>
-                Apellido:<br>
-                <input type="text" name="Apellido" value="">
+                Contraseña:<br>
+                <input type="text" name="Contraseña" value="">
                 <br><br>
                 <input type="submit" value="Submit">
           </form> 

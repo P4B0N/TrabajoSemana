@@ -12,8 +12,24 @@
 $miarchivo = fopen("usuarios.txt", "r") or die("Unable to open file!");
 while(!feof($miarchivo)) {
   $objeto=json_decode(fgets($miarchivo));
-  echo "<li>".$objeto->Nombre."</li>";
+  
+  if(objeto->Usuario==$_GET['Usuario']) and (objeto->Contraseña==$_GET['Contraseña']);
+
+{
+
+
+
 }
+
+
+
+
+
+}
+
+
+
+
 fclose($miarchivo);
 ?>
 
